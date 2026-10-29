@@ -12,7 +12,7 @@
 
 }
 h1{
-    color: var(--color-primary);
+    color: var(--color-txt);
     background-color: var(--color-secondary);
     font-size:x-large;
 }
@@ -35,7 +35,6 @@ header{
 
 header li{
     background-color: var(--color-secondary);
-    
     display: inline-block;
     text-align: right;
     margin-right: 40px;
@@ -45,14 +44,27 @@ header ul{
 }
 header a{
     background-color: var(--color-secondary);
-    color: var(--color-primary);
+    color: var(--color-txt);
 }
 header a:hover{
-    color: var(--color-txt);
+    color: var(--color-primary);
 }
 main{
     margin-top: 80px;
     margin-bottom: 80px;
+}
+#disclaimer{
+    background-color: var(--color-primary);
+    margin: 20px;
+    padding: 30px;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+}
+#disclaimer p{
+    justify-content: center;
+    display: flex;
+    color: var(--color-txt);
 }
 #presentation{
     margin-left: auto;
@@ -90,8 +102,6 @@ p{
 }
 #qualites h2{
     text-align: center;
-    text-decoration: underline;
-    text-underline-position: auto;    
 }
 #caractbox{
     display:flex;
