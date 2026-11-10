@@ -10,7 +10,12 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4{
+    font-family: 'JetBrains Mono', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
 
 header{
     background-color: var(--color-beige);
@@ -50,7 +55,6 @@ h2{
     text-align: center;
 }
 
-}
 main{
     margin: 80px 0 0 0;
 }
